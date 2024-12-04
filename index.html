@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labirinto</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  
+  <div class="side-img">
+    <img src="/assets/witch.png" alt="">
+  </div>  
+
+  <div class="main-content">
+    
+    <h1>O labirinto da Bruxa</h1>
+    <p id="resultado"></p>
+      <div class="container">
+        <div id="labirinto" class="labirinto"></div>
+      </div>
+      <button onclick="iniciarBusca('largura')">Busca em Largura</button>
+      <button onclick="iniciarBusca('profundidade')">Busca em Profundidade</button>
+      <button onclick="iniciarBusca('aestrela')">Iniciar A*</button>
+  </div>
+
+  <div>
+    <button onclick="window.location.reload();">Limpar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

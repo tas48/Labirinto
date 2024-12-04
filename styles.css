@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  body {
+    font-family: 'Creepster', Arial, sans-serif;
+    text-align: center;
+    background-color: #2c2c2c; 
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 20px;
+  }
+
+  .main-content{
+    width: 60%;
+  }
+
+ .side-img{
+    margin-right: -130px;
+    z-index: 1;
+    padding: 20px;
+ }
+
+ .side-img > img {
+    width: 500px;
+ }
+
+  h1 {
+    margin: 20px;
+    font-size: 60px;
+    color: #e47440;
+  }
+  
+  .container{
+    display: flex;
+  }
+
+  .labirinto {
+    display: grid;
+    margin: 20px auto;
+    gap: 1px;
+  }
+  
+  .celula {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .parede {
+    background-color: #125215; 
+  }
+  
+  .caminho {
+    background-color: #6e6d6d; 
+  }
+  
+  .inicio {
+    background-color: #cc9a58; 
+  }
+  
+  .fim {
+    background-color: #a71b1b; 
+  }
+  .visitado {
+    background-color: #a71b1b; 
+  }
+  
+  .agente {
+    background-color: #4b0082; 
+  }
+  
+  button {
+    background-color: #333;
+    color: #ff7518;
+    border: 2px solid #ff7518;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  #resultado {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #9b30ff;
+  }
+  
+  .container{
+    padding-top: 30px;
+    padding-right: 10px;
+  }
+
